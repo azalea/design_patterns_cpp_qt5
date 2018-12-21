@@ -7,7 +7,7 @@
 	*/
 	
 #include <QtGlobal>
-#ifndef Q_WS_WIN
+#ifndef Q_OS_WIN
 #define ACTIONEDITOR_EXPORT
 #elif defined(ACTIONEDITOR_DLL)
 #define ACTIONEDITOR_EXPORT Q_DECL_EXPORT
@@ -15,5 +15,5 @@
 #define ACTIONEDITOR_EXPORT Q_DECL_IMPORT
 #endif
 
-#endif        //  #ifndef MYEXPORT_H
+#endif // ACTIONEDITOR_EXPORT
 

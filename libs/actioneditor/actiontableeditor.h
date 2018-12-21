@@ -3,7 +3,6 @@
 #include "actioneditor_export.h"
 #include <QDialog>
 #include <QList>
-#include "actioneditor_export.h"
 
 class QModelIndex;
 class QAction;

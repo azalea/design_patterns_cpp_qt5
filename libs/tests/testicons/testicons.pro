@@ -1,6 +1,7 @@
 include (../../common.pri)
+QT += widgets
 CONFIG += debug
-INCLUDEPATH += $$(CPPLIBS)/icons
+INCLUDEPATH += ../../icons
 LIBS += -licons
 
 # Input

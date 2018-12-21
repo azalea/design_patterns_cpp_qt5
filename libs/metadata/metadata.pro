@@ -1,13 +1,14 @@
 include (../libs.pri)
 TEMPLATE = lib
+QT += widgets
 
 win32 {
     DEFINES += METADATA_DLL
 }
 
-LIBS += -ldataobjects 
+LIBS += -ldataobjects
 
-INCLUDEPATH += . ../dataobjects
+INCLUDEPATH += ../dataobjects
 
 # Input
 HEADERS += preference.h \

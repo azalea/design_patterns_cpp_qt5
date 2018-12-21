@@ -1,7 +1,6 @@
 
 #include "enum.h"
 #include <QDebug>
-
 Enum::Enum(int enumval) : m_Val(enumval) {
     m_Val = enumval;
 }

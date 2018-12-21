@@ -1,9 +1,9 @@
 include (../../common.pri)
 
-QT += xml
-CONFIG += qtestlib debug
+QT += xml testlib
+CONFIG += debug
 
-INCLUDEPATH += $$(CPPLIBS)/customer $$(CPPLIBS)/dataobjects 
+INCLUDEPATH += ../../customer ../../dataobjects
 
 # Input
 HEADERS +=  testxmlimport.h

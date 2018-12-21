@@ -1,8 +1,3 @@
-CPPLIBS=$$(CPPLIBS)
-isEmpty(CPPLIBS) {
-    error("You should define CPPLIBS environment variable to point to this location.")
-}
-
 TEMPLATE = subdirs
 # Process directories in order (some are dependent on others):
 CONFIG += ordered
@@ -11,7 +6,7 @@ SUBDIRS += dataobjects \
            metadata \
            actioneditor \
            icons \
-           phononmetadata \
+#           phononmetadata \
            sqlmetadata \
            docbook \
            cards2 \

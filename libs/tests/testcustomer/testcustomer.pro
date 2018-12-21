@@ -1,10 +1,9 @@
 include (../../common.pri)
 
-INCLUDEPATH	+= $$(CPPLIBS)/dataobjects $$(CPPLIBS)/customer
+INCLUDEPATH    += ../../dataobjects ../../customer
 LIBS += -ldataobjects -lcustomer -L$$(CPPLIBS)
 
-CONFIG += qtestlib
-QT += xml
+QT += xml testlib
 
 HEADERS += testcustomer.h testcustomerlist.h
 SOURCES += testcustomer.cpp testcustomerlist.cpp

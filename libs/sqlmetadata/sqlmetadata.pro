@@ -1,7 +1,7 @@
 include (../libs.pri)
 TEMPLATE = lib
 #QT += phonon sql
-QT += sql
+QT += sql widgets
 DEPENDPATH += .
 INCLUDEPATH += . ../metadata ../dataobjects
 LIBS += -ldataobjects -lmetadata

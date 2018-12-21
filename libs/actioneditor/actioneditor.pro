@@ -1,8 +1,10 @@
 include (../libs.pri)
+QT += widgets
 TEMPLATE = lib
 HEADERS = actiontableeditor.h \
     actioneditordialog.h \
-    actiontablemodel.h
+    actiontablemodel.h \
+    actioneditor_export.h
 SOURCES = actiontableeditor.cpp \
     actioneditordialog.cpp \
     actiontablemodel.cpp

@@ -2,7 +2,7 @@
 #define TESTASSERTEQUALS_H
 //start
 
-#include <QtTest>
+#include <QtTest/QtTest>
 
 class TestAssertEquals:public QObject {
     Q_OBJECT

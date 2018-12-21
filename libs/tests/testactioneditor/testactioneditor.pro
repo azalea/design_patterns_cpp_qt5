@@ -1,7 +1,8 @@
+QT += widgets printsupport
 LIBS += -L$$(CPPLIBS) \
     -lactioneditor -lobjectbrowser
-INCLUDEPATH += $$(CPPLIBS)/actioneditor
-INCLUDEPATH += $$(CPPLIBS)/objectbrowser
+INCLUDEPATH += ../../actioneditor \
+               ../../objectbrowser
 
 HEADERS = application.h
 SOURCES = application.cpp \
@@ -15,4 +16,3 @@ win32 {
     OBJECTS_DIR = _obj
     CONFIG += console
 }
-OTHER_FILES += fileprint.xpm

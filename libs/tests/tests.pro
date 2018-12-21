@@ -1,20 +1,20 @@
 TEMPLATE=subdirs
-SUBDIRS = assert\
-          testactioneditor\
+SUBDIRS = assert \
+          testactioneditor \
           testcustomer \
-	  testicons \
+          testicons \
           xmlimport \
           preference \
           properties \
-          values  
+          values
 # optional subdirs
-SUBDIRS += testmetadata \
-           testsqlmetadata \
-           metadatawidget
+#SUBDIRS += testmetadata \
+#           testsqlmetadata \
+#           metadatawidget
 
 USE_TAGLIB=$$(USE_TAGLIB)
 !isEmpty(USE_TAGLIB) {
-	SUBDIRS += testfiletagger  
+        SUBDIRS += testfiletagger
 }
 
 
